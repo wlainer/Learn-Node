@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const slug = require('slug');
+const slug = require('slugs');
 
 mongoose.Promise = global.Promise;
 

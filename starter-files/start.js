@@ -18,7 +18,7 @@ mongoose.connection.on('error', (err) => {
 });
 
 // READY?! Let's go!
-
+const storeSchema = require('./models/store');
 
 // Start our app!
 const app = require('./app');
